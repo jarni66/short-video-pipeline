@@ -1,0 +1,47 @@
+{
+  "channel": "How Things Work",
+  "language": "Indonesia",
+  "defaults": { "voice_name": "id-ID-ArdiNeural-Male", "video_source": "youtube" },
+  "video_concepts": [
+    {
+      "title": "Bagaimana Cara Kerja Chip Apple M",
+      "youtube_title": "Kenapa Chip Apple M Bisa Sekencang Itu & Irit Baterai?",
+      "description": "Chip Apple M membuat MacBook kencang sekaligus irit baterai. Rahasianya ada pada desain ARM dan arsitektur SoC yang menyatukan semuanya dalam satu keping. Simak di sini!",
+      "video_terms": ["apple m chip closeup", "computer processor silicon", "macbook circuit board", "semiconductor microchip", "cpu architecture diagram"],
+      "tags": ["cara kerja chip apple", "apple silicon", "chip M", "prosesor", "how things work"],
+      "hashtags": ["#AppleSilicon", "#Teknologi", "#Chip"],
+      "thumbnail_prompt": "macro shot of a glowing Apple M-series silicon chip on a circuit board, intricate transistors visible, dramatic blue-orange cinematic lighting, no text",
+      "video_script": "Kenapa chip Apple M bisa sangat kencang tapi tetap irit baterai? Rahasianya ada pada cara Apple mendesainnya. Chip ini menggunakan arsitektur ARM, jenis desain yang awalnya dibuat untuk ponsel, jadi sangat hemat daya. Tapi yang membuatnya istimewa adalah konsep System on a Chip, atau SoC. Pada komputer biasa, prosesor, kartu grafis, dan memori terpisah dan harus saling berkirim data lewat jalur panjang. Apple menyatukan semuanya dalam satu keping. Karena jaraknya jadi sangat dekat, data mengalir jauh lebih cepat dan hemat energi. Apple juga memakai memori terpadu, di mana CPU dan GPU berbagi memori yang sama tanpa perlu menyalin data bolak-balik. Ditambah teknologi pembuatan transistor yang sangat kecil, hasilnya performa tinggi dengan panas dan konsumsi daya rendah. Itulah kenapa MacBook bisa tipis, senyap, dan tahan seharian. Follow untuk penjelasan teknologi lainnya!"
+    },
+    {
+      "title": "Bagaimana Claude Berbeda dari AI Lain",
+      "youtube_title": "Apa Bedanya Claude dari AI Lain? Ini Penjelasannya!",
+      "description": "Claude adalah AI buatan Anthropic yang dirancang dengan fokus pada keamanan dan kejujuran lewat metode Constitutional AI. Apa bedanya dengan AI lain? Tonton di sini!",
+      "video_terms": ["ai chatbot conversation", "artificial intelligence assistant", "glowing ai interface", "person typing on laptop ai", "neural network glowing"],
+      "tags": ["claude ai", "anthropic", "perbedaan AI", "kecerdasan buatan", "how things work"],
+      "hashtags": ["#Claude", "#AI", "#Teknologi"],
+      "thumbnail_prompt": "friendly glowing AI assistant orb facing a row of other generic AI icons, warm orange light versus cool blue, sense of contrast and balance, no text",
+      "video_script": "Claude adalah AI buatan perusahaan bernama Anthropic. Tapi apa yang membuatnya berbeda dari AI lain? Pada dasarnya, banyak AI dilatih dengan cara yang mirip, yaitu membaca data dalam jumlah sangat besar untuk belajar pola bahasa. Yang membedakan Claude adalah cara melatih perilakunya. Anthropic memakai metode bernama Constitutional AI. Sederhananya, Claude diberi semacam daftar prinsip atau konstitusi, lalu dilatih untuk menilai dan memperbaiki jawabannya sendiri agar sesuai prinsip itu. Tujuannya supaya Claude lebih jujur, lebih aman, dan menolak permintaan yang berbahaya, tanpa harus selalu bergantung pada penilaian manusia di setiap langkah. Claude juga dikenal kuat dalam memahami teks panjang dan menjaga percakapan tetap nyambung. Tentu, setiap AI punya kelebihan masing-masing, dan tidak ada yang sempurna. Tapi fokus Claude memang pada keamanan dan sikap yang membantu. Follow untuk penjelasan teknologi lainnya!"
+    },
+    {
+      "title": "Bagaimana Cara Kerja Makan Bergizi Gratis MBG",
+      "youtube_title": "Begini Cara Kerja Program Makan Bergizi Gratis di Indonesia!",
+      "description": "Program Makan Bergizi Gratis menargetkan puluhan juta penerima manfaat lewat ribuan dapur SPPG di seluruh Indonesia. Bagaimana sistemnya bekerja? Simak di sini!",
+      "video_terms": ["school children eating meal", "healthy lunch tray food", "indonesian school students", "community kitchen cooking", "nutritious meal vegetables"],
+      "tags": ["makan bergizi gratis", "MBG", "program pemerintah", "gizi anak", "how things work"],
+      "hashtags": ["#MBG", "#Indonesia", "#Edukasi"],
+      "thumbnail_prompt": "smiling Indonesian school children receiving trays of colorful nutritious meals in a classroom, warm bright lighting, hopeful documentary style, no text",
+      "video_script": "Program Makan Bergizi Gratis, atau MBG, adalah program andalan pemerintah Indonesia untuk memberi makanan bergizi secara gratis. Tapi bagaimana sistemnya bekerja? MBG dikelola oleh Badan Gizi Nasional, atau BGN. Sasarannya adalah anak sekolah, balita, serta ibu hamil dan menyusui. Pada tahun dua ribu dua puluh enam, program ini menargetkan sekitar delapan puluh dua koma sembilan juta penerima manfaat di seluruh Indonesia. Yang menarik, makanan tidak dimasak oleh sekolah, melainkan oleh unit khusus bernama SPPG, yaitu Satuan Pelayanan Pemenuhan Gizi. Ribuan dapur SPPG tersebar di berbagai daerah, memasak menu bergizi setiap hari, lalu mengantarkannya langsung ke sekolah dan penerima. Tujuan utamanya adalah melawan stunting, yaitu gangguan pertumbuhan akibat kekurangan gizi, yang sempat menimpa seperempat anak Indonesia. Harapannya, generasi yang lebih sehat dan cerdas. Follow untuk penjelasan menarik lainnya!"
+    },
+    {
+      "title": "Bagaimana GPU Dibuat",
+      "youtube_title": "Dari Pasir Jadi GPU Super Canggih? Begini Prosesnya!",
+      "description": "GPU yang menggerakkan game dan AI ternyata berawal dari pasir. Lewat proses pembuatan chip yang luar biasa rumit, miliaran transistor diukir dalam satu keping. Simak di sini!",
+      "video_terms": ["silicon wafer manufacturing", "graphics card gpu closeup", "semiconductor fabrication clean room", "photolithography chip", "silicon sand to chip"],
+      "tags": ["cara membuat GPU", "gpu", "semikonduktor", "chip grafis", "how things work"],
+      "hashtags": ["#GPU", "#Teknologi", "#Chip"],
+      "thumbnail_prompt": "split image of raw silicon sand transforming into a shiny finished GPU graphics card, glowing silicon wafer in clean room, dramatic blue-orange lighting, no text",
+      "video_script": "GPU yang menjalankan game berat dan kecerdasan buatan ternyata berawal dari sesuatu yang sangat sederhana: pasir. Pasir mengandung silikon, bahan utama pembuatan chip. Begini prosesnya. Silikon dimurnikan hingga sangat bersih, lalu dilelehkan dan dibentuk menjadi batang kristal raksasa. Batang ini diiris tipis menjadi lempengan bundar bernama wafer. Di atas wafer inilah keajaiban terjadi. Lewat proses bernama fotolitografi, pola sirkuit yang sangat rumit diproyeksikan menggunakan cahaya, lalu diukir lapis demi lapis. Hasilnya, miliaran transistor super kecil tertanam dalam satu keping, jauh lebih tipis dari rambut manusia. Semua ini dilakukan di ruang bersih khusus, karena satu partikel debu saja bisa merusak chip. Setelah diuji, wafer dipotong menjadi keping-keping GPU, lalu dipasang ke kartu grafis. Dari pasir menjadi otak grafis tercanggih. Follow untuk penjelasan teknologi lainnya!"
+    }
+  ]
+}

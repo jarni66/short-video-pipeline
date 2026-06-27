@@ -1,0 +1,22 @@
+{
+  "channel": "How Things Work",
+  "language": "English",
+  "defaults": { "voice_name": "en-US-GuyNeural-Male", "video_source": "youtube" },
+  "video_concepts": [
+    {
+      "title": "How a Microwave Heats Food",
+      "video_script": "You've probably heard that microwaves cook food from the inside out. That's a myth! Here's how it really works. A microwave emits electromagnetic waves that make the water molecules inside your food vibrate. The friction between those molecules is what creates heat. Because the waves only reach a few centimeters deep, the outer layer actually heats faster, while the thick center can stay cold. That's why we stir or let food rest so the heat spreads evenly. And why do metals spark? Metal reflects the waves and builds up electric charge at its edges until it sparks. So next time, keep the metal spoon out. A clever bit of physics in a everyday kitchen box!",
+      "video_terms": ["microwave oven", "water molecules vibrating", "heating food closeup", "kitchen cooking"]
+    },
+    {
+      "title": "How GPS Knows Your Location",
+      "video_script": "How does your phone know exactly where you are? The answer is in the sky. Right now, dozens of GPS satellites orbit Earth, constantly broadcasting signals with their time and position. Your phone catches signals from at least four of them and calculates how long each took to arrive. Since the signal travels at the speed of light, a tiny difference of a fraction of a second can mean thousands of kilometers. From this, your phone pinpoints your spot, a process called triangulation. Amazingly, the satellites move so fast that time runs slightly differently up there, just as Einstein predicted. Without correcting for it, GPS would drift by kilometers every day. So every map pin is really space physics at work!",
+      "video_terms": ["gps satellite orbit", "earth from space", "smartphone map navigation", "satellite signal"]
+    },
+    {
+      "title": "How Noise-Cancelling Headphones Work",
+      "video_script": "How can headphones make the world go quiet? The secret: fighting sound with sound. Inside the headphone, a tiny microphone listens to the noise around you, like an airplane engine's drone. A processor then creates a brand new sound wave that is the exact opposite of that noise. When the two opposite waves meet, they cancel each other out, a phenomenon called destructive interference. The result: your ears barely hear the noise anymore. Interestingly, this works best on steady, low sounds like engines or air conditioning. Sudden sounds like speech are harder to erase because they're unpredictable. So your headphones don't block sound, they add an opposite sound that cancels it. Science that makes long trips feel calm!",
+      "video_terms": ["headphones closeup", "sound waves visualization", "airplane cabin", "audio waveform"]
+    }
+  ]
+}

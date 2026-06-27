@@ -1,0 +1,79 @@
+{
+  "channel": "How Things Work",
+  "bahasa": "Indonesia",
+  "catatan": "video_script ditulis untuk durasi sekitar 1 menit (kurang lebih 130-150 kata narasi).",
+  "video_concepts": [
+    {
+      "id": 1,
+      "title": "Cara Kerja Microwave Memanaskan Makanan",
+      "description": "Membongkar mitos 'microwave memasak dari dalam ke luar' dan menjelaskan bagaimana gelombang menggetarkan molekul air sehingga menghasilkan panas, serta kenapa logam memercik.",
+      "video_script": "Kamu mungkin pernah dengar microwave memasak makanan dari dalam ke luar. Itu salah! Begini cara kerjanya. Microwave memancarkan gelombang elektromagnetik yang menggetarkan molekul air di dalam makanan. Gesekan antar molekul inilah yang menghasilkan panas. Karena gelombang hanya menembus beberapa sentimeter, bagian luar makanan justru lebih cepat panas, sementara bagian tengah yang tebal sering masih dingin. Itu sebabnya kita perlu mengaduk atau mendiamkan makanan sebentar agar panasnya merata. Lalu kenapa logam memercik di dalam microwave? Karena logam memantulkan gelombang dan menumpuk muatan listrik di ujung-ujungnya hingga memicu percikan. Jadi mulai sekarang, jangan masukkan sendok logam, ya. Nah, itu rahasia di balik alat dapur yang kita pakai hampir setiap hari. Penasaran cara kerja alat lain? Tonton video kami berikutnya!"
+    },
+    {
+      "id": 2,
+      "title": "Bagaimana GPS Tahu Lokasimu",
+      "description": "Menjelaskan triangulasi satelit: bagaimana ponsel menangkap sinyal dari beberapa satelit, pentingnya akurasi waktu, dan peran teori relativitas Einstein.",
+      "video_script": "Bagaimana ponselmu tahu posisimu dengan tepat? Jawabannya ada di langit. Saat ini ada puluhan satelit GPS mengorbit Bumi, terus-menerus memancarkan sinyal berisi waktu dan posisinya. Ponselmu menangkap sinyal dari minimal empat satelit, lalu menghitung berapa lama sinyal itu sampai. Karena sinyal bergerak secepat cahaya, perbedaan waktu sepersekian detik saja bisa berarti jarak ribuan kilometer. Dari perhitungan ini, ponsel menentukan titik lokasimu, proses yang disebut triangulasi. Yang menakjubkan, satelit bergerak begitu cepat sehingga waktu di sana berjalan sedikit berbeda dari di Bumi, sesuai teori relativitas Einstein. Tanpa koreksi ini, GPS akan meleset beberapa kilometer setiap hari! Jadi setiap kali peta menunjukkan posisimu, kamu sebenarnya sedang memanfaatkan fisika luar angkasa dan teori Einstein sekaligus. Keren, kan?"
+    },
+    {
+      "id": 3,
+      "title": "Cara Kerja Toilet Saat Disiram",
+      "description": "Mengungkap efek sifon pada pipa berbentuk huruf S: kenapa kloset bisa kosong seketika tanpa mesin, dan kenapa air selalu kembali ke batas tertentu.",
+      "video_script": "Toilet terlihat sederhana, tapi di baliknya ada trik fisika yang jenius. Kuncinya adalah pipa melengkung berbentuk huruf S di bawah kloset. Saat kamu menyiram, air masuk dengan cepat dan memenuhi lengkungan itu. Begitu penuh, terjadilah efek sifon: air yang turun menyeret semua isi kloset ikut terhisap ke bawah dengan kuat. Itu sebabnya kloset bisa kosong dalam sekejap tanpa pompa atau mesin. Setelah isinya habis, udara masuk dan mematahkan sifon, lalu air bersih mengisi kembali hingga ke batas tertentu. Lengkungan S yang tersisa terisi air ini juga punya fungsi penting: menahan bau dari saluran pembuangan agar tidak naik ke kamar mandi. Jadi desain toilet yang nyaris tidak berubah selama seratus tahun ternyata adalah karya rekayasa yang cerdas. Sederhana, tapi luar biasa!"
+    },
+    {
+      "id": 4,
+      "title": "Bagaimana Headphone Peredam Bising Membungkam Dunia",
+      "description": "Menjelaskan interferensi destruktif: headphone menciptakan gelombang suara kebalikan dari kebisingan untuk saling meniadakan, dan kenapa suara konstan paling mudah diredam.",
+      "video_script": "Bagaimana headphone bisa membuat dunia jadi sunyi? Rahasianya: melawan suara dengan suara. Di dalam headphone ada mikrofon kecil yang menangkap suara bising di sekitarmu, misalnya deru mesin pesawat. Lalu prosesor menciptakan gelombang suara baru yang bentuknya persis kebalikan dari suara bising tadi. Saat dua gelombang yang berlawanan ini bertemu, keduanya saling meniadakan, fenomena yang disebut interferensi destruktif. Hasilnya, telingamu nyaris tidak mendengar bising itu lagi. Menariknya, teknologi ini paling efektif untuk suara yang konstan dan rendah, seperti dengung AC atau mesin. Sedangkan suara mendadak seperti orang bicara lebih sulit dihilangkan, karena polanya tak terduga. Jadi headphone-mu sebenarnya tidak memblokir suara, melainkan menambahkan suara lawan yang membatalkannya. Sains yang membuat perjalanan panjang terasa jauh lebih tenang!"
+    },
+    {
+      "id": 5,
+      "title": "Cara Layar Sentuh Mengenali Jarimu",
+      "description": "Menjelaskan teknologi kapasitif: kenapa layar bereaksi terhadap kulit tapi tidak terhadap sarung tangan, kenapa air membingungkan layar, dan bagaimana banyak sentuhan terbaca sekaligus.",
+      "video_script": "Pernah bertanya, bagaimana layar ponsel tahu di mana jarimu menyentuh? Jawabannya: tubuhmu menghantarkan listrik. Layar sentuh modern memakai teknologi kapasitif. Di bawah kaca ada lapisan transparan yang menyimpan muatan listrik tipis di seluruh permukaan. Saat jarimu menyentuh layar, tubuhmu menyerap sebagian muatan di titik itu, lalu ponsel mendeteksi perubahan kecil tersebut dan menentukan posisi sentuhan. Itu sebabnya layar tidak bereaksi saat kamu menyentuh dengan kuku atau sarung tangan biasa, karena keduanya tidak menghantarkan listrik. Air juga bisa mengacaukan layar karena ikut menghantarkan muatan. Hebatnya, layar bisa membaca banyak sentuhan sekaligus, sehingga kamu bisa mencubit untuk memperbesar gambar. Jadi setiap kali kamu menggeser layar, kamu sebenarnya sedang bermain dengan listrik di ujung jarimu. Teknologi yang kita sentuh ribuan kali setiap hari!"
+    },
+    {
+      "id": 6,
+      "title": "Bagaimana Kulkas Membuat Makanan Dingin",
+      "description": "Membongkar miskonsepsi bahwa kulkas 'menciptakan dingin'. Menjelaskan siklus refrigeran, kompresi, dan kenapa bagian belakang kulkas terasa hangat.",
+      "video_script": "Banyak yang mengira kulkas membuat dingin. Padahal, kulkas justru memindahkan panas keluar. Di dalamnya ada zat khusus bernama refrigeran yang mengalir dalam sebuah siklus. Pertama, refrigeran cair menguap di dalam kulkas dan menyerap panas dari makananmu, membuat ruang di dalam jadi dingin. Lalu gas panas ini dialirkan ke kompresor yang menekannya hingga sangat panas. Di bagian belakang kulkas, panas itu dilepaskan ke udara ruangan, itu sebabnya belakang kulkas terasa hangat. Setelah melepas panas, refrigeran kembali menjadi cair dan siklus berulang lagi terus-menerus. Jadi kulkas tidak menciptakan dingin, melainkan memompa panas keluar dari dalam ke luar. Prinsip yang sama dipakai oleh AC dan freezer. Lain kali kamu buka kulkas, ingatlah: dinginnya itu sebenarnya hasil dari panas yang dibuang. Sains sederhana yang menjaga makananmu tetap segar!"
+    },
+    {
+      "id": 7,
+      "title": "Bagaimana Internet Mengirim Pesan ke Seluruh Dunia",
+      "description": "Mengikuti perjalanan satu paket data dari ponsel melewati router, pusat data, hingga kabel serat optik bawah laut antarbenua, dengan gaya bercerita.",
+      "video_script": "Saat kamu mengirim pesan ke teman di benua lain, perjalanannya jauh lebih panjang dari yang kamu kira. Pesanmu pertama dipecah menjadi potongan-potongan kecil bernama paket data. Setiap paket diberi alamat tujuan, lalu dikirim dari ponselmu ke router, menara seluler, dan pusat data. Dari sana, paket melaju melalui kabel serat optik, termasuk kabel raksasa yang membentang di dasar lautan antarbenua. Dengan kecepatan mendekati cahaya, paket-paket ini bisa melintasi dunia hanya dalam sepersekian detik. Yang menarik, tiap paket bisa menempuh jalur berbeda, lalu disusun ulang dengan sempurna saat tiba di tujuan. Jadi pesan singkatmu sebenarnya melakukan perjalanan melintasi samudra dalam sekejap mata. Internet bukan awan di langit, melainkan jaringan kabel nyata yang melingkari seluruh planet kita!"
+    },
+    {
+      "id": 8,
+      "title": "Bagaimana Vaksin Melatih Sistem Imun",
+      "description": "Menjelaskan cara tubuh belajar mengenali ancaman tanpa jatuh sakit, peran sel memori dan antibodi, serta alasan adanya dosis booster.",
+      "video_script": "Bagaimana vaksin melindungi tubuh tanpa membuatmu sakit? Anggap saja vaksin adalah latihan perang untuk sistem imunmu. Vaksin memasukkan versi lemah atau sekadar gambaran dari kuman ke tubuhmu. Kuman ini tidak cukup kuat untuk membuatmu sakit, tapi cukup untuk dikenali tubuh sebagai ancaman. Sistem imun lalu belajar membuat senjata khusus bernama antibodi untuk melawannya. Yang terpenting, tubuh menyimpan sel memori yang mengingat bentuk kuman tadi. Jadi kalau suatu hari kuman asli benar-benar menyerang, tubuhmu sudah tahu cara melawannya dengan cepat sebelum kamu jatuh sakit. Seiring waktu, ingatan ini bisa memudar, makanya kadang kita butuh dosis penguat atau booster. Jadi vaksin bukan obat, melainkan pelatih yang mempersiapkan pasukan pertahanan tubuhmu. Sebuah cara cerdas untuk menang sebelum perang dimulai!"
+    },
+    {
+      "id": 9,
+      "title": "Kenapa Lift Tidak Jatuh Saat Kabel Putus",
+      "description": "Mengungkap lapisan pengaman lift: banyak kabel baja, rem governor, peredam kejut, dan sistem pemberat, sekaligus membantah mitos film.",
+      "video_script": "Di film-film, kabel lift putus dan semua orang jatuh. Kenyataannya? Itu hampir mustahil terjadi. Lift modern punya banyak lapisan pengaman. Pertama, lift tidak digantung satu kabel, melainkan beberapa kabel baja sekaligus, dan satu kabel saja sebenarnya sudah cukup kuat menahan seluruh beban. Kedua, ada alat bernama governor yang terus memantau kecepatan lift. Jika lift meluncur terlalu cepat, governor langsung memicu rem darurat yang mencengkeram rel di sisi lift dan menghentikannya. Di dasar lubang lift pun ada peredam kejut sebagai pengaman terakhir. Bahkan, sistem pemberat bekerja seperti timbangan, sehingga mesin tidak perlu tenaga besar untuk menggerakkan lift. Jadi adegan lift jatuh bebas di film itu hanya drama. Faktanya, lift adalah salah satu kendaraan paling aman yang pernah dibuat manusia!"
+    },
+    {
+      "id": 10,
+      "title": "Bagaimana Chip Kartu Mencegah Penipuan",
+      "description": "Menjelaskan kenapa chip lebih aman daripada pita magnetik: setiap transaksi menghasilkan kode unik sekali pakai yang langsung kedaluwarsa.",
+      "video_script": "Kenapa kartu sekarang pakai chip emas kecil, bukan lagi sekadar pita hitam di belakang? Jawabannya: keamanan. Pita magnetik lama menyimpan data yang sama setiap kali dipakai. Kalau penjahat berhasil menyalin data itu, mereka bisa memakainya berulang kali. Chip bekerja sangat berbeda. Setiap kali kamu membayar, chip menciptakan kode unik sekali pakai untuk transaksi itu saja. Kode ini langsung kedaluwarsa setelah dipakai. Jadi meskipun ada yang berhasil mencurinya, kode itu sudah tidak berguna untuk transaksi berikutnya. Ini seperti membuat kata sandi baru setiap kali kamu berbelanja. Itu sebabnya pembayaran dengan chip jauh lebih sulit dipalsukan dibanding gesek biasa. Sebuah keping kecil yang melindungi uangmu di setiap transaksi. Teknologi diam-diam yang kita pakai hampir setiap hari!"
+    },
+    {
+      "id": 11,
+      "title": "Bagaimana Pesawat Bisa Tetap di Udara",
+      "description": "Melampaui penjelasan Bernoulli yang terlalu sederhana dan menguraikan kombinasi gaya angkat: pembelokan udara, bentuk sayap, dan dorongan mesin.",
+      "video_script": "Bagaimana pesawat seberat ratusan ton bisa terbang? Banyak yang menjelaskannya terlalu sederhana, padahal sebenarnya gabungan beberapa hal. Kuncinya ada di sayap. Saat pesawat melaju cepat, sayap yang dirancang khusus membelokkan aliran udara ke bawah. Sesuai hukum Newton, saat udara didorong ke bawah, udara mendorong sayap ke atas sebagai reaksinya, inilah gaya angkat. Bentuk sayap yang melengkung di atas juga membuat udara mengalir lebih cepat di sisi atas, menciptakan tekanan lebih rendah yang ikut menarik sayap naik. Mesin jet bertugas mendorong pesawat maju agar udara terus mengalir cukup cepat. Selama gaya angkat lebih besar dari berat pesawat, ia tetap melayang. Jadi terbang bukan sihir, melainkan perpaduan kecepatan, bentuk sayap, dan hukum fisika. Itulah kenapa logam raksasa bisa mengangkasa!"
+    },
+    {
+      "id": 12,
+      "title": "Cara Kerja Resleting",
+      "description": "Membongkar mekanisme resleting: slider berbentuk huruf Y yang mengunci dan melepas gigi-gigi kecil yang saling mengisi seperti puzzle.",
+      "video_script": "Resleting mungkin benda paling sering kamu pakai tapi paling jarang kamu pikirkan. Cara kerjanya benar-benar cerdas. Perhatikan: di kedua sisi ada deretan gigi-gigi kecil yang bentuknya saling mengisi. Bagian yang bergerak disebut slider, dan di dalamnya ada bentuk huruf Y. Saat kamu menarik slider ke atas, jalur Y ini memaksa gigi-gigi dari kedua sisi saling mengunci satu per satu dengan sangat rapat. Saat kamu menariknya ke bawah, bentuk Y yang sama justru memisahkan gigi-gigi itu kembali. Setiap gigi mengait gigi di seberangnya seperti puzzle, sehingga sambungannya kuat tapi tetap mudah dibuka. Penemuan sederhana ini ada di jaket, tas, sepatu, hampir di mana saja. Sebuah mesin mungil sempurna yang kita tarik tanpa pernah memikirkannya. Hebat untuk sesuatu yang begitu kecil!"
+    }
+  ]
+}

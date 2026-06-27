@@ -1,0 +1,164 @@
+{
+  "channel": "How Things Work",
+  "language": "Indonesia",
+  "defaults": {
+    "voice_name": "id-ID-ArdiNeural-Male",
+    "video_source": "youtube"
+  },
+  "video_concepts": [
+    {
+      "title": "Cara Kerja Microwave Memanaskan Makanan",
+      "youtube_title": "Microwave TIDAK Memasak dari Dalam ke Luar?! 🤯",
+      "description": "Membongkar mitos microwave dan menjelaskan bagaimana gelombang menggetarkan molekul air sampai panas.",
+      "video_terms": [
+        "microwave oven",
+        "water molecules vibrating",
+        "metal sparks microwave",
+        "heating food closeup"
+      ],
+      "tags": [
+        "cara kerja",
+        "microwave",
+        "sains",
+        "edukasi"
+      ],
+      "hashtags": [
+        "#CaraKerja",
+        "#Sains",
+        "#Edukasi"
+      ],
+      "thumbnail_prompt": "Glowing microwave with electromagnetic waves vibrating water molecules, dramatic blue-orange cinematic lighting, vivid, no text",
+      "video_script": "Kamu mungkin pernah dengar microwave memasak makanan dari dalam ke luar. Itu salah! ... (130-150 kata, ~1 menit)"
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    },
+    {
+      "title": "",
+      "youtube_title": "",
+      "description": "",
+      "video_terms": [],
+      "tags": [],
+      "hashtags": [],
+      "thumbnail_prompt": "",
+      "video_script": ""
+    }
+  ]
+}
