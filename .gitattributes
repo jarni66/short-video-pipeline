@@ -1,0 +1,13 @@
+# Keep shell scripts LF so they run on macOS/Linux (avoids /bin/bash^M errors)
+*.sh text eol=lf
+# Windows batch files stay CRLF
+*.bat text eol=crlf
+# Let git handle the rest, treat known binaries as binary
+* text=auto
+*.ttc binary
+*.ttf binary
+*.mp3 binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.ico binary
