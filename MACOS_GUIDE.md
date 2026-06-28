@@ -1,134 +1,181 @@
-# macOS Guide — From Zero to Your First Video
+# macOS Guide — From Powering On to Your First Video
 
-A complete, copy-paste walkthrough for macOS. No API keys, no accounts needed.
-Total time: ~15 min setup (mostly waiting on installs), then a few minutes per video.
+A complete, beginner-friendly walkthrough. **No coding knowledge, no API keys,
+no accounts needed.** Just follow each step in order and copy-paste the commands.
+
+- One-time setup: ~15 minutes (mostly waiting for installs to finish)
+- Each video after that: ~5–10 minutes
+
+> How to "paste" in Terminal: copy a command here, click the Terminal window,
+> press **Cmd+V**, then press **Return**. Many installs print lots of text — that
+> scrolling is normal. Just wait until you get the prompt back.
 
 ---
 
-## Step 1 — Install Homebrew (skip if you already have it)
-Homebrew is the standard macOS package installer. Open **Terminal**
-(press `Cmd+Space`, type "Terminal", Enter) and paste:
+## Part 1 — Turn on the Mac and open the Terminal
+1. Power on the Mac and log in.
+2. Press **Cmd + Space** (opens Spotlight search).
+3. Type **Terminal** and press **Return**. A small window with text opens —
+   this is where you'll paste commands.
 
+---
+
+## Part 2 — Install Homebrew (the installer for the tools)
+Copy-paste this into Terminal and press Return:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+- It may ask for your **Mac login password** — type it (you won't see characters
+  as you type; that's normal) and press Return.
+- It may ask you to press **Return** to continue — do so.
+- Takes a few minutes.
 
-After it finishes, if it tells you to run a couple `echo ... >> ~/.zprofile`
-commands to "add Homebrew to your PATH", run them. Then close and reopen Terminal.
+**Important:** when it finishes, it may print two lines starting with
+`echo ... >> ~/.zprofile` and `eval ...`. If you see those, copy-paste and run
+**both of those lines**, then **close and reopen Terminal** (Cmd+Q, then reopen
+via Spotlight).
 
-Check it works:
+Check it worked:
 ```bash
 brew --version
 ```
+If it prints a version number, you're good.
 
 ---
 
-## Step 2 — Install Python 3.11 and ffmpeg
+## Part 3 — Install Python, ffmpeg, and git
+Paste this single command (installs all three):
 ```bash
-brew install python@3.11 ffmpeg
+brew install python@3.11 ffmpeg git
 ```
-Verify both:
+Wait for it to finish (a few minutes). Then verify:
 ```bash
-python3.11 --version    # should print Python 3.11.x
-ffmpeg -version         # should print ffmpeg version ...
+python3.11 --version
+ffmpeg -version
+git --version
 ```
+Each should print a version. (If `python3.11` says "not found", run
+`brew install python@3.11` again and reopen Terminal.)
 
 ---
 
-## Step 3 — Download the project
+## Part 4 — Download the project
 ```bash
 cd ~/Desktop
 git clone https://github.com/jarni66/short-video-pipeline.git
 cd short-video-pipeline
 ```
-(If `git` isn't installed, macOS will prompt to install the Command Line Tools —
-accept it, then re-run the clone.)
+This puts a folder called **short-video-pipeline** on your Desktop and moves you
+into it. (The `cd` command means "go into this folder".)
 
 ---
 
-## Step 4 — One-time setup
+## Part 5 — One-time setup
 ```bash
 chmod +x setup.sh make_videos.sh
 ./setup.sh
 ```
-This builds the Python environment and installs everything (a few minutes — lots
-of scrolling is normal). It finishes with:
+`setup.sh` builds the project's environment and installs everything it needs
+(a few minutes of scrolling text — normal). It's done when you see:
 ```
 OK - ready. No API keys needed.
 ```
-> If macOS says the script "cannot be opened" or is "from an unidentified
-> developer", just run it with bash instead: `bash setup.sh`
+> If macOS blocks it with "cannot be opened" or "unidentified developer",
+> run it this way instead: `bash setup.sh`
 
 ---
 
-## Step 5 — Make your first videos
-The project comes with 3 example topics in `sample_concepts.json`. Generate them:
+## Part 6 — Generate your first video
+The project comes with 3 example topics. To make them:
 ```bash
 ./make_videos.sh
 ```
-You'll see it: write the voiceover → find & download background clips → add
-subtitles → render. Each video takes ~5-10 minutes (it does 2 at a time).
+You'll watch it: create the voiceover → find & download background clips → add
+subtitles → render the video. Each video takes ~5–10 minutes (it does 2 at once).
 
-When done, your finished videos are here:
-```
-short-video-pipeline/storage/tasks/<topic-name>/final-1.mp4
-```
-Open that folder in Finder:
+When it finishes it prints **"Done"**.
+
+---
+
+## Part 7 — Find and play your video
+Open the output folder in Finder:
 ```bash
 open storage/tasks
 ```
+Inside you'll see a folder for each topic. Open one and double-click
+**`final-1.mp4`** to play it.
+
+🎉 That's your first video — made with no keys and no accounts.
 
 ---
 
-## Step 6 — Make your own videos
-Open `sample_concepts.json` in any text editor (or TextEdit) and replace the
-examples. Each video concept needs:
+## Part 8 — Make your OWN videos
+The videos come from a simple text file. To make new ones, you give it new topics.
 
-```json
-{
-  "title": "How Volcanoes Erupt",
-  "video_script": "Narration text the voice will read, about 130-150 words for a ~1 minute video...",
-  "video_terms": ["volcano eruption", "lava flow", "magma", "volcanic ash"]
-}
-```
-- **title** — the topic
-- **video_script** — what the narrator says (~130-150 words ≈ 1 min)
-- **video_terms** — a few English keywords used to find background footage
+1. Open the project in a text editor. Easiest: in Terminal run
+   ```bash
+   open -e sample_concepts.json
+   ```
+   (or open the file in VS Code if you have it).
+2. Replace the examples with your own. Each video is one block like this:
+   ```json
+   {
+     "title": "How Volcanoes Erupt",
+     "video_script": "Beneath the surface, molten rock called magma builds up pressure until it bursts through the crust... (write about 130-150 words, ~1 minute of narration)",
+     "video_terms": ["volcano eruption", "lava flow", "magma", "volcanic ash"]
+   }
+   ```
+   - **title** = the topic
+   - **video_script** = exactly what the narrator says
+   - **video_terms** = a few simple English keywords to find background footage
+3. Add as many blocks as the number of videos you want (separate them with commas
+   inside the `video_concepts` list). Save the file (**Cmd+S**).
+4. Generate:
+   ```bash
+   ./make_videos.sh
+   ```
 
-Set the narrator voice once at the top in `defaults.voice_name`
-(e.g. `en-US-GuyNeural-Male`, `en-US-AriaNeural-Female`). Many languages exist.
-
-Then run it on your file:
-```bash
-./make_videos.sh my_concepts.json
-```
+**Tip:** you can write scripts with ChatGPT/Claude, then paste them into the
+`video_script` fields. Change the narrator voice at the top in
+`defaults.voice_name` (e.g. `en-US-AriaNeural-Female`).
 
 ---
 
-## Optional — visual dashboard instead of the command line
+## Part 9 (optional) — Use the visual dashboard instead of commands
 ```bash
 venv/bin/python -m streamlit run dashboard.py --server.port 8502
 ```
-Then open **http://localhost:8502** in your browser: paste concepts JSON, click
-**Generate pool**, and watch progress + logs live.
+Then open **http://localhost:8502** in your browser. Paste your concepts, click
+**Generate pool**, and watch progress. (Ignore the "Upload" buttons — those need
+extra accounts and aren't part of this setup.) Press **Ctrl+C** in Terminal to stop it.
+
+---
+
+## Coming back later (after closing everything)
+You don't redo setup. Just:
+```bash
+cd ~/Desktop/short-video-pipeline
+./make_videos.sh
+```
 
 ---
 
 ## Troubleshooting
-| Problem | Fix |
+| What you see | What to do |
 |---|---|
+| `command not found: brew` | Finish Part 2's PATH lines, then reopen Terminal |
 | `python3.11: command not found` | `brew install python@3.11`, reopen Terminal |
 | `ffmpeg: command not found` | `brew install ffmpeg` |
-| `bad interpreter` / `permission denied` on a script | run `bash setup.sh` / `bash make_videos.sh` |
-| A video fails to find footage | simplify that concept's `video_terms` to common words |
-| YouTube briefly blocks downloads | just run `./make_videos.sh` again — it skips finished videos and retries the rest |
-| Apple Silicon (M1/M2/M3) dependency install fails | ensure `which python3.11` is under `/opt/homebrew` (the arm64 Homebrew) |
+| Script won't run / "permission denied" | run `bash setup.sh` and `bash make_videos.sh` |
+| A video fails to find footage | make that topic's `video_terms` simpler/more common |
+| Download briefly blocked by YouTube | just run `./make_videos.sh` again — it skips finished videos and retries |
+| Apple Silicon (M1/M2/M3) install error | make sure `which python3.11` shows `/opt/homebrew/...` |
 
-## Notes
-- **Fully key-free:** voiceover (Microsoft Edge TTS) and footage (yt-dlp) are
-  free and need no accounts. There's no daily limit.
-- **Footage license:** clips come from a general YouTube search (any license) —
-  fine for personal use. If you plan to **publish & monetize**, swap in your own
-  royalty-free footage to avoid copyright claims.
-- **Music:** a random track from `resource/bgm` is mixed in — replace those
-  `.mp3`s with your own if you want.
+## Good to know
+- **Fully free & key-free:** the voiceover (Microsoft Edge TTS) and footage
+  (yt-dlp) need no accounts. No daily limits.
+- **Footage license:** clips come from general YouTube search (any license) —
+  fine for personal use/experimenting. If you'll **publish & monetize**, replace
+  with your own royalty-free footage to avoid copyright claims.
+- **Background music:** a random track from `resource/bgm` — swap in your own
+  `.mp3`s anytime.
